@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
-    margin-bottom: 85px;
+    margin-bottom: 67px;
     margin-top: 10px;
 }
 .fbimg{
@@ -32,7 +32,7 @@
     grid-template-columns: repeat(3,1fr);
     /* column-gap: 11;
     row-gap: -1; */
-    margin: 30px;
+    margin: 20px;
     
 }
 .transfers, .airtime, .qr, .balance, .help, .internet, .atmlocate, .agent, .refer{
@@ -44,7 +44,7 @@
     width: 100px;
 }
 .quicktransfers, .quickairtime,  .quickqr, .balanceenquiry, .contactus, .internetbanking, .atemlocator, .agentlocator, .firsterefer {
-    font-size: 15px;
+    font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
    
@@ -56,13 +56,14 @@ i{
     display: flex;
     background-color: rgb(29, 1, 1);
     height: 130px;
-    width: 80%;
-    margin-left: 35px;
+    width: 85%;
+    margin-left: 30px;
     border-radius: 10px;
     padding: 13px;
     /* margin-bottom: 40px; */
+    margin-top: 10px;
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
 }
 .mpinlogin{
     color: #fff;
@@ -91,18 +92,21 @@ i{
 .login{
     display: flex;
     background-color: rgb(29, 1, 1);
-    height: 50px;
-    width: 80%;
-    margin-left: 35px;
+    height: 45px;
+    width: 85%;
+    margin-left: 30px;
     border-radius: 10px;
     padding: 13px;
     justify-content: center;
     align-content: center;
+    position: relative;
+    top: 4px;
+    bottom: 30px;
 }
 .finger{
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     padding-left: 10px;
 }
