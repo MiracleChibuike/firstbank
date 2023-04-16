@@ -7,7 +7,7 @@
     overflow-x: hidden;
 }
 .container{
-    background-image: url(../images/fbbg.jpeg);
+    background-image: url(../images/fbnlogo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
 .fbimg{
     width: 200px;
     position: relative;
-    left: 50px;
+    left: 40px;
 }
 .grid-container{
     color: #fff;
@@ -47,6 +47,7 @@
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    padding-top: 1px;
    
 }
 i{
@@ -70,7 +71,30 @@ i{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
     font-weight: bold;
+    display: flex;
+    height: 40px;
+    position: relative;
+    top: 10px;
+    right: 130px;
+    
 }
+#pin{
+    position: relative;
+    top: 70px;
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orange;
+    padding-bottom: 6px;
+}
+
 /* #input{
     border-style: none;
     border-bottom-style: dotted;
@@ -78,7 +102,7 @@ i{
     width: 60px;
     /* border-bottom-width: 10px solid #fff; */
     
-.lineinput{
+/* .lineinput{
     border-style: none;
     border-top-style: dashed;
     border-width: 7px;
@@ -88,7 +112,16 @@ i{
     top: 80px;
     right: 140px;
     height: 0;
-    }
+    } */
+    /* .inputpasscode{
+        display: flex;
+        background-color: red;
+        width: 50%;
+        height: 20px;
+        position: relative;
+        top: 50px;
+        right: 145px;
+    } */
 .login{
     display: flex;
     background-color: rgb(29, 1, 1);
@@ -109,4 +142,5 @@ i{
     font-size: 10px;
     font-weight: bold;
     padding-left: 10px;
+    padding-top: 4px;
 }
